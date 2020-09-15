@@ -1,31 +1,25 @@
 #!python3
-# felicity_site.py - felicity gunn website
+# routes.py - routes for site
 
 from flask import flash, url_for, redirect, render_template, request
 from art_site import app, db
-from art_site.forms import LoginForm, UploadForm
-from art_site.models import User, Sketch, ArtPiece
-from flask_login import login_user
 
 @app.route('/')
 def home():
     return render_template('home.html', title='Home')
 
+@app.route('/contact')
+def contact():
+    return render_template('contact.html', title='Contact')
 
-@app.route('/about')
-def about():
-    return render_template('about.html', title='About')
+@app.route('/art')
+def art():
+    return render_template('art.html', title='Art')
 
+@app.route('/motion')
+def motion():
+    return render_template('motion.html', title='Motion')
 
-@app.route('/artwork')
-def artwork():
-    return render_template('artwork.html', title='Artwork')
-
-
-@app.route('/sketchbook')
-def sketchbook():
-    return render_template('sketchbook.html', title='Sketchbook')
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
+@app.route('/development')
+def development():
+    return render_template('development.html', title='Development')

@@ -1,8 +1,8 @@
 /* GENERAL */
 :root {
-    --pink: rgb(222, 153, 193);
-    --white: rgb(240, 240, 240);
-    --dark: rgb(19, 19, 19);
+    --dark: rgb(18, 18, 18);
+    --light: rgb(250, 250, 250);
+    --grey: rgb(188, 188, 188);
 }
 ::-webkit-scrollbar { 
     display: none; 
@@ -10,15 +10,41 @@
 
 
 /* BODY */
-body, a {
-    font-family: 'Nunito', sans-serif;
+body {
+    font-family: 'Raleway', sans-serif;
     font-weight: 200;
     text-decoration: none;
-    color: var(--dark, black);
-    background-color: var(--white, white)
+    color: var(--light, white);
+    background-color: var(--dark, black);
+}
+a {
+    color: var(--light, white);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 18px;
+    transition: .1s ease;
+}
+a:hover {
+    color: var(--grey, grey);
+    transition: .1s ease;
+}
+h2 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+}
+h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+p {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 18px;
 }
 .highlight {
-    color: var(--pink, pink);
+    font-weight: 900;
 }
 
 
@@ -31,29 +57,58 @@ body, a {
 
 
 /* ABOUT */
-#profile-container {
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-#profile-container img {
+.container img {
     width: 200px;
     height: 200px;
+    margin-bottom: 5px;
+}
+.title-text {
+    font-size: 30px;
+    margin: 5px 0px;
+    font-weight: 700;
 }
 .text-container {
     width: 300px;
     max-width: 100%;
+    margin: 5px 0px;
     text-align: center;
 }
-.text-container h2 {
-    font-size: 30px;
-    margin: 10px 0px;
+.resume-link {
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
-.text-container p {
-    font-size: 14px;
-    line-height: 18px;
+.resume-link a {
+    padding: 5px 15px;
+    color: var(--dark, black);
+    background-color: var(--light, white);
+    font-weight: 500;
+    border-radius: 10px;
+}
+.resume-link a:hover {
+    background-color: var(--grey, grey);
+}
+
+/* FOOTER */
+.footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: calc(100vw - 200px);
+    text-align: center;
+    padding: 8px 0px;
+    background-color: var(--light, white);
+    color: var(--dark, black);
+}
+.footer p {
+    font-size: 12px;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 500px){
@@ -61,11 +116,18 @@ body, a {
         top: 60px;
         width: 100vw;
     }
-    #profile-container {
+    .container {
         height: calc(100vh - 60px);
     }
-    #profile-container img {
+    .container img {
         width: 150px;
         height: 150px;
+        margin: 15px 0px 20px 0px;
+    }
+    .text-container {
+        max-width: 90%;
+    }
+    .footer {
+        width: 100vw;
     }
 }

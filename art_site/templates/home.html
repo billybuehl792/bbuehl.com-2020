@@ -1,7 +1,22 @@
 {% extends "base.html" %}
 
-{% block title %}{{ title }}{% endblock %}
-
 {% block body %}
-<p>this is the home page</p>
+<div class="container">
+    <img src="{{ url_for('static', filename='img/profile.png') }}" alt="{{ name }}">
+    <h2 class="title-text">Billy Buehl</h2>
+    <div class="text-container">
+        <p>
+            I'm a motion designer/ developer currently located in Athens, Ohio
+            finishing a master's degree in Information and Telecommunication Systems. 
+            I have a background in design and network engineering. This site 
+            is a showcase of some of my work.
+        </p>
+    </div>
+    <div class="text-container">
+        <p>Network Engineer at Progressive</p>
+        <p>OU CS Internet Engineering TA</p>
+        <p>Former Motion Designer at Frame One Media</p>
+        <p>Former Motion Designer at AvatarMS</p>
+    </div>
+</div>
 {% endblock %}

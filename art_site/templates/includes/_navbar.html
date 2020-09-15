@@ -19,13 +19,13 @@
                 <a href="{{ url_for('home') }}" class="nav-link">home</a>
             </li>
             <li>
-                <a href="{{ url_for('artwork') }}" class="nav-link">artwork</a>
+                <a href="{{ url_for('development') }}" class="nav-link">development</a>
             </li>
             <li>
-                <a href="{{ url_for('sketchbook') }}" class="nav-link">sketchbook</a>
+                <a href="{{ url_for('art') }}" class="nav-link">art</a>
             </li>
             <li>
-                <a href="{{ url_for('about') }}" class="nav-link">about</a>
+                <a href="{{ url_for('contact') }}" class="nav-link">contact</a>
             </li>
         </ul>
 
@@ -33,13 +33,18 @@
         <div id="social">
             <ul>
                 <li class="social-link">
-                    <a href="https://www.instagram.com/fofo_power/" target="_blank">
+                    <a href="https://github.com/billybuehl792" target="_blank">
+                        <img src="{{ url_for('static', filename='img/githubLogo.png') }}" alt="github.com">
+                    </a>
+                </li>
+                <li class="social-link">
+                    <a href="https://www.instagram.com/kevinjosephcole_art/" target="_blank">
                         <img src="{{ url_for('static', filename='img/instagramLogo.png') }}" alt="Instagram.com">
                     </a>
                 </li>
                 <li class="social-link">
-                    <a href="artstation.com" target="_blank">
-                        <img src="{{ url_for('static', filename='img/artstationLogo.png') }}" alt="Felicty Logo">
+                    <a href="https://www.artstation.com/bbuehl792" target="_blank">
+                        <img src="{{ url_for('static', filename='img/artstationLogo.png') }}" alt="Artstation.com">
                     </a>
                 </li>
             </ul>
