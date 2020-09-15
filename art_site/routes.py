@@ -12,9 +12,14 @@ def home():
 def contact():
     return render_template('contact.html', title='Contact')
 
-@app.route('/resume<string:resume>')
+@app.route('/resume/<string:resume>')
 def resume(resume):
-    return render_template('resume.html', title='Resume', resume=resume)
+    if resume == 'IT_Resume':
+        r = 'BillyBuehl_Resume_IT.pdf'
+    else:
+        r = 'BillyBuehl_Resume.pdf'
+        
+    return render_template('resume.html', title=resume, resume=r)
 
 @app.route('/art')
 def art():
