@@ -1,6 +1,7 @@
 /* GENERAL */
 :root {
     --dark: rgb(18, 18, 18);
+    --almostDark: rgb(45, 45, 45);
     --light: rgb(250, 250, 250);
     --grey: rgb(188, 188, 188);
 }
@@ -98,6 +99,38 @@ p {
 }
 .resume-link a:hover {
     background-color: var(--grey, grey);
+}
+
+/* DEVELOPMENT */
+.dev-title {
+    margin: 10px 0px 10px 10px;
+}
+.dev-container {
+    margin: 10px auto;
+    max-width: 900px;
+}
+.project-container {
+    background-color: var(--almostDark, brown);
+    color: var(--light, white);
+    padding: 10px;
+    margin: 0px auto;
+}
+.project-container:last-child {
+    margin-bottom: 45px;
+}
+.project-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0px 0px 5px 0px;
+}
+.project-subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 5px 0px;
+}
+.link {
+    font-weight: 500;
+    margin: 10px 0px 0px 0px;
 }
 
 /* FOOTER */
