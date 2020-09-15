@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ title }}</title>
+<link rel="icon" href="{{ url_for('static', filename='img/favicon.png') }}">
+</head>
+<body style="padding: 0px; margin: 0px;">
+	<embed src="{{ url_for('static', filename='resume/' + resume) }}#scrollbar=0" style="position: absolute; height: 100%; width: 100%; border: none; padding: 0px; margin: 0px;">
+</body>
+</html>

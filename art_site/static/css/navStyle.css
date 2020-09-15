@@ -22,7 +22,7 @@ nav {
 .nav-link {
     color: var(--dark, black);
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 500;
 }
 .nav-link-active {
     border-bottom: 1px solid;

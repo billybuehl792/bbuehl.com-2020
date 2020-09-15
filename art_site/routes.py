@@ -12,6 +12,10 @@ def home():
 def contact():
     return render_template('contact.html', title='Contact')
 
+@app.route('/resume<string:resume>')
+def resume(resume):
+    return render_template('resume.html', title='Resume', resume=resume)
+
 @app.route('/art')
 def art():
     return render_template('art.html', title='Art')
