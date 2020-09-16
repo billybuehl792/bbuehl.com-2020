@@ -8,6 +8,13 @@
             "link": "http://www.its.ohio.edu/ip-calc/"
         },
         {
+            "title": "Green Roof Frontend Live-Data Server",
+            "subtitle": "Python3 + Flask/ HTML/ CSS/ Javascript",
+            "descr": "Python3 + Flask air quality live data collection and monitoring server.",
+            "code": "https://github.com/billybuehl792/Green-Roof-DataServer",
+            "link": false
+        },
+        {
             "title": "Crypto-Currency Mining and Brute Force Tools",
             "subtitle": "Python3",
             "descr": "Iteration tools without the use of libraries. Demonstrates recursive iteration through each permutation of a given keyspace of size n along with crypto-currency mining and private/ public key creation.",
@@ -24,28 +31,28 @@
         {
             "title": "Distance Vector Router Simulation",
             "subtitle": "Python3/ threading library",
-            "descr": "Subnet calc blah, blah, blah",
+            "descr": "Multi-threaded command line python routers which communicate through sockets specified in topology configuration file. Routers determine best path through auto-correcting best path distance vector algorithm",
             "code": "https://github.com/billybuehl792/DV-Router-Simulation",
             "link": false
         },
         {
             "title": "Green Roof Data Collection/ Monitoring Server",
             "subtitle": "Zabbix4.0 + Apache2 + Python3",
-            "descr": "Subnet calc blah, blah, blah",
+            "descr": "Zabbix monitoring software for environmental data collection and representation with secure Apache2 HTTPS server for frontend UI with signed certificate. Python scripts used for external checks/ interactions with data logging devices and 3rd party APIs.",
             "code": "https://github.com/billybuehl792/purpleAir",
             "link": "https://zabbix.its.ohio.edu/zabbix/"
         },
         {
             "title": "Passvault Password Manager",
             "subtitle": "Python3/ cryptography library",
-            "descr": "Subnet calc blah, blah, blah",
+            "descr": "Command line password manager with file and password encryption/ decryption functionality. Append, edit, and delete password entries. Built-in password generator.",
             "code": "https://github.com/billybuehl792/passvault",
             "link": false
         },
         {
             "title": "Visual Art Portfolio Site",
             "subtitle": "Python3 + Flask/ HTML/ CSS/ Javascript",
-            "descr": "blah, blah, blah",
+            "descr": "Python3 + Flask art portfolio website.",
             "code": "https://github.com/billybuehl792/felicity.com",
             "link": false
         }

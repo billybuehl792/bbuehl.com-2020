@@ -26,17 +26,10 @@ def resume(resume):
 def art():
     return render_template('art.html', title='Art')
 
-@app.route('/motion')
-def motion():
-    return render_template('motion.html', title='Motion')
-
 @app.route('/development')
 def development():
     config = os.path.join(app.root_path, 'static/config', 'dev_config.json')
-
     with open(config, 'r') as f:
         d = json.load(f)['dev_items']
-
-    print(d)
 
     return render_template('development.html', title='Development', d=d)
