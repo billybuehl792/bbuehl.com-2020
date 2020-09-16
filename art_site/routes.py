@@ -2,7 +2,9 @@
 # routes.py - routes for site
 
 from flask import flash, url_for, redirect, render_template, request
-from art_site import app, db
+from art_site import app
+import os
+import json
 
 @app.route('/')
 def home():
@@ -14,10 +16,9 @@ def contact():
 
 @app.route('/resume/<string:resume>')
 def resume(resume):
+    r = 'BillyBuehl_Resume.pdf'
     if resume == 'IT_Resume':
         r = 'BillyBuehl_Resume_IT.pdf'
-    else:
-        r = 'BillyBuehl_Resume.pdf'
         
     return render_template('resume.html', title=resume, resume=r)
 
@@ -31,4 +32,11 @@ def motion():
 
 @app.route('/development')
 def development():
-    return render_template('development.html', title='Development')
+    config = os.path.join(app.root_path, 'static/config', 'dev_config.json')
+
+    with open(config, 'r') as f:
+        d = json.load(f)['dev_items']
+
+    print(d)
+
+    return render_template('development.html', title='Development', d=d)

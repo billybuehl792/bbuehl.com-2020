@@ -103,17 +103,17 @@ p {
 
 /* DEVELOPMENT */
 .dev-title {
-    margin: 10px 0px 10px 10px;
+    margin: 10px 0px 15px 10px;
 }
 .dev-container {
     margin: 10px auto;
-    max-width: 900px;
+    max-width: 700px;
 }
 .project-container {
     background-color: var(--almostDark, brown);
     color: var(--light, white);
-    padding: 10px;
-    margin: 0px auto;
+    padding: 10px 15px;
+    margin: 10px auto;
 }
 .project-container:last-child {
     margin-bottom: 45px;
@@ -124,13 +124,19 @@ p {
     margin: 0px 0px 5px 0px;
 }
 .project-subtitle {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
-    margin: 5px 0px;
+    margin: 4px 0px 10px 0px;
+}
+.project-description {
+    font-size: 13px;
+    font-weight: 200;
+    margin-bottom: 10px;
 }
 .link {
     font-weight: 500;
-    margin: 10px 0px 0px 0px;
+    font-size: 12px;
+    margin: 3px 0px;
 }
 
 /* FOOTER */

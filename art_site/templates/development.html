@@ -1,20 +1,26 @@
 {% extends "base.html" %}
 
 {% block body %}
-<div class="dev-container">
-    <h2 class="dev-title">Development Projects</h2>
-    <div class="project-container">
-        <h3 class="project-title">Bit Mining Demo and Server</h3>
-        <h4 class="project-subtitle">It's about blah</h4>
-        <p class="project-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Recusandae amet quidem quo modi accusantium illum officiis 
-            iusto iste enim laboriosam debitis itaque, ea exercitationem 
-            aliquam voluptate, doloremque eveniet aspernatur a?
-        </p>
-        <p class="link">
-            <a href="" target="_blank">View Project</a>
-        </p>
+
+    <div class="dev-container">
+        <h2 class="dev-title">Development Projects</h2>
+    {% for entry in d %}
+        <div class="project-container">
+            <h3 class="project-title">{{ entry['title'] }}</h3>
+            <h4 class="project-subtitle">{{ entry['subtitle'] }}</h4>
+            <p class="project-description">{{ entry['descr'] }}</p>
+            {% if entry['code'] %}
+            <p class="link">
+                <a href="{{ entry['code'] }}" target="_blank">View Code</a>
+            </p>
+            {% endif%}
+            {% if entry['link'] %}
+            <p class="link">
+                <a href="{{ entry['link'] }}" target="_blank">View Project</a>
+            </p>
+            {% endif%}
+        </div>
+    {% endfor %}
     </div>
-</div>
+
 {% endblock %}

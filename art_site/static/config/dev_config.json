@@ -1,0 +1,53 @@
+{
+    "dev_items": [
+        {
+            "title": "Subnet Calculator and Base Conversion",
+            "subtitle": "Javascript/ HTML/ CSS",
+            "descr": "Javascript/ HTML/ CSS Web UI for calculating IPv4 and IPv6 subnets given subnet mask and desired subnet count. Technical explanation of numeral systems and base conversion also included.",
+            "code": "https://github.com/billybuehl792/Simple-Subnet-Calculator",
+            "link": "http://www.its.ohio.edu/ip-calc/"
+        },
+        {
+            "title": "Crypto-Currency Mining and Brute Force Tools",
+            "subtitle": "Python3",
+            "descr": "Iteration tools without the use of libraries. Demonstrates recursive iteration through each permutation of a given keyspace of size n along with crypto-currency mining and private/ public key creation.",
+            "code": "https://github.com/billybuehl792/brute-and-mine",
+            "link": false
+        },
+        {
+            "title": "Customer Database and Estimation Tools Web App",
+            "subtitle": "Python3 + Flask/ HTML/ CSS/ Javascript",
+            "descr": "Frontend + backend python3 flask server with user login + permission settings. HTML/ CSS/ Javascript calculator along with customer MySQL database. (Deployed on LAN Linux server)",
+            "code": "https://github.com/billybuehl792/AB-site",
+            "link": false
+        },
+        {
+            "title": "Distance Vector Router Simulation",
+            "subtitle": "Python3/ threading library",
+            "descr": "Subnet calc blah, blah, blah",
+            "code": "https://github.com/billybuehl792/DV-Router-Simulation",
+            "link": false
+        },
+        {
+            "title": "Green Roof Data Collection/ Monitoring Server",
+            "subtitle": "Zabbix4.0 + Apache2 + Python3",
+            "descr": "Subnet calc blah, blah, blah",
+            "code": "https://github.com/billybuehl792/purpleAir",
+            "link": "https://zabbix.its.ohio.edu/zabbix/"
+        },
+        {
+            "title": "Passvault Password Manager",
+            "subtitle": "Python3/ cryptography library",
+            "descr": "Subnet calc blah, blah, blah",
+            "code": "https://github.com/billybuehl792/passvault",
+            "link": false
+        },
+        {
+            "title": "Visual Art Portfolio Site",
+            "subtitle": "Python3 + Flask/ HTML/ CSS/ Javascript",
+            "descr": "blah, blah, blah",
+            "code": "https://github.com/billybuehl792/felicity.com",
+            "link": false
+        }
+    ]
+}
