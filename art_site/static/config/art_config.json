@@ -1,0 +1,14 @@
+{
+    "art_items": [
+        {
+            "title": "Wastemen Album Art",
+            "image": "album_art.jpg",
+            "thumbnail": "album_art_thumbnail.png"
+        },
+        {
+            "title": "Landscape Digital Drawing",
+            "image": "landscape.jpg",
+            "thumbnail": "landscape_thumbnail.png"
+        }
+    ]
+}

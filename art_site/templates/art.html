@@ -3,5 +3,19 @@
 {% block title %}{{ title }}{% endblock %}
 
 {% block body %}
-<p>this is the art page</p>
+    <div id="player" class="player">
+        <div id="x" onclick="imageViewer()">X</div>
+        <div id="image-container">
+            <img id="focus-image" src="" alt="">
+        </div>
+    </div>
+
+    <div class="art-container">
+    {% for entry in d %}
+        <div class="art-piece" onclick="imageViewer('{{ url_for('static', filename='art/' + entry['image'] ) }}')">
+            <img src="{{ url_for('static', filename='thumbnail/' + entry['thumbnail'] ) }}" alt="{{ entry['title'] }}">
+            <h3 class="art-title">{{ entry['title'] }}</h3>
+        </div>
+    {% endfor %}
+    </div>
 {% endblock %}

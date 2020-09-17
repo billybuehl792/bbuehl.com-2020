@@ -1,17 +1,16 @@
 #!python3
 # pillow.py - make thumbnail version of picture
 
-from art_site import app
 from PIL import Image
-import os
 import sys
+import os
 
 def mk_thumbnail(img, size):
     fn, _ = os.path.splitext(img)
     filename = f'{fn}_thumbnail.png'
-    output = os.path.join(app.root_path, 'static/thumbnail', filename)
+    output = f'art_site/static/thumbnail/{filename}'
 
-    i = Image.open(img)
+    i = Image.open(f'art_site/static/art/{img}')
     resize = i.size[0]
 
     if i.size[0] > i.size[1]:
@@ -24,9 +23,6 @@ def mk_thumbnail(img, size):
 
 
 if __name__ == '__main__':
-    size = (300, 300)
-    try:
-        img = sys.argv[1]
-        print(mk_thumbnail(img, size))
-    except:
-        print('Enter valid image')
+    size = (400, 400)
+    img = sys.argv[1]
+    print(mk_thumbnail(img, size))

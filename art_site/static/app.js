@@ -35,6 +35,16 @@ function activeNav() {
 
 }
 
+// open viewer
+function imageViewer(image="") {
+    var playerWindow = document.getElementById("player");
+    var focusImage = document.getElementById("focus-image");
+
+    playerWindow.classList.toggle("player-active");
+    console.log(image);
+    focusImage.src = image;
+}
+
 const app = () => {
     mobileNav();
     activeNav();

@@ -24,7 +24,11 @@ def resume(resume):
 
 @app.route('/art')
 def art():
-    return render_template('art.html', title='Art')
+    config = os.path.join(app.root_path, 'static/config', 'art_config.json')
+    with open(config, 'r') as f:
+        d = json.load(f)['art_items']
+
+    return render_template('art.html', title='Art', d=d)
 
 @app.route('/development')
 def development():
