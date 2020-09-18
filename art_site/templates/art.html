@@ -3,8 +3,7 @@
 {% block title %}{{ title }}{% endblock %}
 
 {% block body %}
-    <div id="player" class="player">
-        <div id="x" onclick="imageViewer()">X</div>
+    <div id="player" class="player" onclick="imageViewer()">
         <div id="image-container">
             <img id="focus-image" src="" alt="">
         </div>
@@ -14,7 +13,13 @@
     {% for entry in d %}
         <div class="art-piece" onclick="imageViewer('{{ url_for('static', filename='art/' + entry['image'] ) }}')">
             <img src="{{ url_for('static', filename='thumbnail/' + entry['thumbnail'] ) }}" alt="{{ entry['title'] }}">
-            <h3 class="art-title">{{ entry['title'] }}</h3>
+            <div class="art-title">
+                <h3>{{ entry['title'] }}</h3>
+                {% if entry['link'] %}
+                    <a href="{{ entry['link'] }}" target="_blank">View Work</a>
+                {% endif %}
+            </div>
+
         </div>
     {% endfor %}
     </div>
