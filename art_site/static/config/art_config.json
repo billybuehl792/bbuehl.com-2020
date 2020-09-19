@@ -31,9 +31,9 @@
             "link": "https://www.youtube.com/watch?v=OfKMCBMR5-Y&fbclid=IwAR1S9pgKSZpyaInqvVgL28pC-2lRzgszArkP1gbDHGlhy_kClm4o04RqnOE"
         },
         {
-            "title": "Low Poly City",
-            "image": "cityStreet.jpg",
-            "thumbnail": "cityStreet_thumbnail.png",
+            "title": "Blue Boys",
+            "image": "blueBoys.png",
+            "thumbnail": "blueBoys_thumbnail.png",
             "link": false
         },
         {
@@ -43,22 +43,28 @@
             "link": false
         },
         {
+            "title": "Low Poly City",
+            "image": "cityStreet.jpg",
+            "thumbnail": "cityStreet_thumbnail.png",
+            "link": false
+        },
+        {
             "title": "Reindeer Painting",
             "image": "reindeer.jpg",
             "thumbnail": "reindeer_thumbnail.png",
             "link": false
         },
         {
-            "title": "Guerilla Toss Gig Animation",
-            "image": "guerillaToss.gif",
-            "thumbnail": "guerillaToss_thumbnail.png",
-            "link": "https://vimeo.com/330350032"
-        },
-        {
             "title": "KJC",
             "image": "atlas.jpg",
             "thumbnail": "atlas_thumbnail.png",
             "link": "https://www.instagram.com/kevinjosephcole_art/"
+        },        
+        {
+            "title": "Guerilla Toss Gig Animation",
+            "image": "guerillaToss.gif",
+            "thumbnail": "guerillaToss_thumbnail.png",
+            "link": "https://vimeo.com/330350032"
         },
         {
             "title": "Wastemen Logo",

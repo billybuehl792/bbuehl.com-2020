@@ -1,14 +1,11 @@
 {% extends "base.html" %}
 
-{% block title %}{{ title }}{% endblock %}
-
 {% block body %}
     <div id="player" class="player" onclick="imageViewer()">
         <div id="image-container">
             <img id="focus-image" src="" alt="">
         </div>
     </div>
-
     <div class="art-container">
     {% for entry in d %}
         <div class="art-piece" onclick="imageViewer('{{ url_for('static', filename='art/' + entry['image'] ) }}')">
@@ -19,7 +16,6 @@
                     <a href="{{ entry['link'] }}" target="_blank">View Work</a>
                 {% endif %}
             </div>
-
         </div>
     {% endfor %}
     </div>

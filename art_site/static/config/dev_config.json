@@ -55,6 +55,13 @@
             "descr": "Python3 + Flask art portfolio website.",
             "code": "https://github.com/billybuehl792/felicity.com",
             "link": false
+        },
+        {
+            "title": "Raspberry PI VPN",
+            "subtitle": "Raspbian + OpenVPN",
+            "descr": "Dynamic DNS and OpenVPN Raspberry Pi VPN",
+            "code": false,
+            "link": false
         }
     ]
 }

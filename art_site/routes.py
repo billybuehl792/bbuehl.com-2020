@@ -37,3 +37,7 @@ def development():
         d = json.load(f)['dev_items']
 
     return render_template('development.html', title='Development', d=d)
+
+@app.errorhandler(404)
+def error(e):
+    return render_template('error.html', title='Error', e='404 Page Not Found!')

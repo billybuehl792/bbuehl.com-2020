@@ -107,7 +107,7 @@ p {
     margin: 10px 0px 15px 10px;
 }
 .dev-container {
-    margin: 10px auto;
+    margin: 10px auto 44px auto;
     max-width: 700px;
 }
 .project-container {
@@ -115,9 +115,6 @@ p {
     color: var(--light, white);
     padding: 10px 15px;
     margin: 10px auto;
-}
-.project-container:last-child {
-    margin-bottom: 45px;
 }
 .project-title {
     font-size: 22px;
@@ -147,6 +144,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 34px;
 }
 .art-piece {
     margin: 0;
@@ -154,11 +152,7 @@ p {
     min-width: 160px;
     min-height: 160px;
     width: 25%;
-    height: 25%;
     cursor: pointer;
-}
-.art-piece:last-child {
-    margin-bottom: 34px;
 }
 .art-piece:hover .art-title {
     opacity: 1;
