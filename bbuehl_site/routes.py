@@ -2,7 +2,7 @@
 # routes.py - routes for site
 
 from flask import flash, url_for, redirect, render_template, request
-from art_site import app
+from bbuehl_site import app
 import os
 import json
 

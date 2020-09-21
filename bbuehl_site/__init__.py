@@ -3,4 +3,4 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
-from art_site import routes
+from bbuehl_site import routes
