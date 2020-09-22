@@ -1,4 +1,3 @@
-#!python3
 # pillow.py - make thumbnail version of picture
 
 from PIL import Image

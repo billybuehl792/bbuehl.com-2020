@@ -1,1 +1,4 @@
 __pycache__
+venv/
+bcrypt_notes.txt
+sqlAlchemy_notes.txt

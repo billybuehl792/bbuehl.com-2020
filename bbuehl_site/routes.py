@@ -1,4 +1,3 @@
-#!python3
 # routes.py - routes for site
 
 from flask import flash, url_for, redirect, render_template, request
