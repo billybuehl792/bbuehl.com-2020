@@ -47,21 +47,17 @@ function imageViewer(image="") {
 // mobile height
 function bodyHeight() {
     var container = document.querySelector(".container");
-    var nav = document.getElementsByTagName("nav")[0];
-    var footer = document.querySelector(".footer");
 
     function resizeContainer() {
-        if (window.innerWidth < 500) {              // mobile
-            navHeight = nav.offsetHeight;
+        if (window.innerWidth <= 500) {              // mobile
+            navHeight = 60;
         } else {                                    // computer
             navHeight = 0;
         }
-        container.style["height"] = ((window.innerHeight - navHeight) - footer.offsetHeight) + "px";
+        container.style["height"] = ((window.innerHeight - 34) - navHeight) + "px";
     }
-    if (container) {
-        window.addEventListener("resize", resizeContainer);
-        window.addEventListener("load", resizeContainer);        
-    }
+    window.addEventListener("resize", resizeContainer);
+    window.addEventListener("load", resizeContainer);
 }
 
 const app = () => {
