@@ -32,7 +32,6 @@ function activeNav() {
             navLinks[i].classList.toggle("nav-link-active");
         }
     }
-
 }
 
 // open viewer
@@ -46,11 +45,27 @@ function imageViewer(image="") {
 }
 
 // mobile height
-function containerHeight(){
-    var height = window.innerHeight;
+function bodyHeight() {
+    var container = document.querySelector(".container");
+    var nav = document.getElementsByTagName("nav")[0];
+    var footer = document.querySelector(".footer");
+
+    function resizeContainer() {
+        if (window.innerWidth < 500) {              // mobile
+            navHeight = nav.offsetHeight;
+        } else {                                    // computer
+            navHeight = 0;
+        }
+        container.style["height"] = ((window.innerHeight - navHeight) - footer.offsetHeight) + "px";
+    }
+    if (container) {
+        window.addEventListener("resize", resizeContainer);
+        window.addEventListener("load", resizeContainer);        
+    }
 }
 
 const app = () => {
     mobileNav();
     activeNav();
+    bodyHeight();
 }
