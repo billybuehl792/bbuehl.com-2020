@@ -45,6 +45,11 @@ function imageViewer(image="") {
     focusImage.src = image;
 }
 
+// mobile height
+function containerHeight(){
+    
+}
+
 const app = () => {
     mobileNav();
     activeNav();
