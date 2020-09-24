@@ -47,7 +47,7 @@ function imageViewer(image="") {
 
 // mobile height
 function containerHeight(){
-    
+    var height = window.innerHeight;
 }
 
 const app = () => {
