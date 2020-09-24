@@ -56,8 +56,11 @@ function bodyHeight() {
         }
         container.style["height"] = ((window.innerHeight - 34) - navHeight) + "px";
     }
-    window.addEventListener("resize", resizeContainer);
-    window.addEventListener("load", resizeContainer);
+    if (container){
+        window.addEventListener("resize", resizeContainer);
+        window.addEventListener("load", resizeContainer);
+    }
+
 }
 
 const app = () => {
