@@ -1,0 +1,236 @@
+{   
+    "download": {
+        "file": "BillyBuehl_Resume.pdf"
+    },
+    "info": {
+        "name": "Billy Buehl",
+        "title": "Motion Designer, Animator, CG Artist",
+        "email": "billybuehl792@gmail.com",
+        "web": ["bbuehl.com", "http://bbuehl.com/"],
+        "git": ["github/billybuehl792", "https://github.com/billybuehl792"],
+        "location": "Athens, OH"
+    },
+    "sections": [
+        {
+            "title": "Technical Skills",
+            "items": [
+                {
+                    "title": false,
+                    "descr": false,
+                    "subtitle": false,
+                    "date": false,
+                    "text_items": [
+                        {
+                            "title": "Video Production",
+                            "text": "Adobe Premiere, Adobe Encore, Adobe Media Encoder, Cinematography"
+                        },
+                        {
+                            "title": "Animation/ Art",
+                            "text": "Adobe After Effects, Maxon Cinema 4D, Adobe Photoshop, Autodesk Maya, Adobe Illustrator"
+                        },
+                        {
+                            "title": "Networking",
+                            "text": "Wireshark, Bash, Network Analysis, IP Subnetting, Switch Configuration, Website Maintenance"
+                        },
+                        {
+                            "title": "Programming",
+                            "text": "Python"
+                        }
+                    ],
+                    "descr_items": false
+                }
+            ]
+        },
+        {
+            "title": "Relevant Professional Experience",
+            "items": [
+                {
+                    "title": "Internet Engineering TA",
+                    "descr": "Ohio University Computer Science",
+                    "subtitle": "Athens, Ohio",
+                    "date": "August 2020 - January 2020",
+                    "text_items": false,
+                    "descr_items": [
+                        "Collaborate with ITS faculty and staff to deliver ITL course materials",
+                        "Assist undergraduate/ graduate students with course work and labs",
+                        "Develop apps using JS/ HTML/ CSS for learning assistance and technical explanation",
+                        "Grade student lab reports and course work"
+                    ]
+                },
+                {
+                    "title": "Network Engineering Intern",
+                    "descr": "Progressive Insurance",
+                    "subtitle": "Mayfield, Ohio",
+                    "date": "May 2020 - August 2020",
+                    "text_items": false,
+                    "descr_items": [
+                        "Worked alongside Progressive’s Network & Telecom and Server & Infrastructure teams",
+                        "Collaborated with app development interns to build AWS transcription/ voice recognition app",
+                        "Wrote python for automation and development projects",
+                        "Solved server and networking related tickets, incidents,  and work orders",
+                        "Utilized git/ github for remote project collaboration"
+                    ]
+                },
+                {
+                    "title": "Mograph Designer, Animator & CG Artist",
+                    "descr": "Frame One Media",
+                    "subtitle": "Macedonia, Ohio",
+                    "date": "August 2018 - January 2020",
+                    "text_items": false,
+                    "descr_items": [
+                        "Designed animations with Adobe After Effects and Premiere",
+                        "Collaborated with business professionals seeking video or animation products",
+                        "Modeled, textured, and animated 3D models using Cinema 4D"
+                    ]
+                },
+                {
+                    "title": "Freelance 3D Animator",
+                    "descr": "Transdev Mobility",
+                    "subtitle": "Remote",
+                    "date": "July 2019 - September 2019",
+                    "text_items": false,
+                    "descr_items": [
+                        "Model, texture, and animate low-poly 3D model packs",
+                        "Simulate vehicle collisions using Cinema 4D",
+                        "Design 2D motion graphics using After Effects"
+                    ]
+                },
+                {
+                    "title": "Animator, Mograph Designer, Videographer",
+                    "descr": "Avatar Management Services",
+                    "subtitle": "Twinsburg, Ohio",
+                    "date": "April 2016 - August 2018",
+                    "text_items": false,
+                    "descr_items": [
+                        "Created hand-drawn art and animations using Adobe Animate, Photoshop, and After Effects",
+                        "Designed motion graphic packages for a variety of clients",
+                        "Worked on studio and field sets as a cinematographer/ production assistant",
+                        "Edited video and audio using Adobe Premiere"
+                    ]
+                },
+                {
+                    "title": "Freelance Animator/ Mograph Designer",
+                    "descr": "Chalmers Brothers Inc.",
+                    "subtitle": "Remote",
+                    "date": "November 2017 - December 2018",
+                    "text_items": false,
+                    "descr_items": [
+                        "Created hand-drawn art and animations using Adobe After Effects, Photoshop, and Animate",
+                        "Animated kinetic typography",
+                        "Edited video and audio using Adobe Premiere"
+                    ]
+                },
+                {
+                    "title": "Freelance Animator/ Mograph Designer",
+                    "descr": "Danaher Corporation",
+                    "subtitle": "Remote",
+                    "date": "July 2017 - October 2017",
+                    "text_items": false,
+                    "descr_items": [
+                        "Created animations for Danaher’s diversity and inclusion initiative",
+                        "Designed and animated characters using Adobe Photoshop and After Effects",
+                        "Modeled, textured, and animated 3D models using Cinema 4D"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Education",
+            "items": [
+                {
+                    "title": "Master of Information and Telecommunication Systems",
+                    "descr": "Ohio University - Athens, OH",
+                    "subtitle": false,
+                    "date": "August 2019 - December 2020",
+                    "text_items": [
+                        {
+                            "title": "GPA",
+                            "text": "4.0"
+                        }
+                    ],
+                    "descr_items": false
+                },
+                {
+                    "title": "Bachelor of Science in Communication",
+                    "descr": "Ohio University - Athens, OH",
+                    "subtitle": false,
+                    "date": "August 2015 - May 2019",
+                    "text_items": [
+                        {
+                            "title": "Major",
+                            "text": "Integrated Media Production"
+                        },
+                        {
+                            "title": "Double Minor",
+                            "text": "Information & Telecommunication Systems and German"
+                        },
+                        {
+                            "title": "GPA",
+                            "text": "3.7"
+                        }
+                    ],
+                    "descr_items": false
+                }
+            ]
+        },
+        {
+            "title": "Relevant IT Coursework",
+            "items": [
+                {
+                    "title": "Internet Engineering",
+                    "descr": "McClure School of Information and Telecommunications",
+                    "subtitle": "Grade received: A",
+                    "date": "Fall 2019",
+                    "text_items": false,
+                    "descr_items": [
+                        "Explored the concepts of IP addressing, router configuration, and network infrastructure",
+                        "Utilized networking tools such as Wireshark, GNS3, and command line utilities",
+                        "Configured and managed local area networks on Windows, Linux, and Mac operating systems"
+                    ]
+                },
+                {
+                    "title": "Encrypted Communication",
+                    "descr": "McClure School of Information and Telecommunications",
+                    "subtitle": "Grade received: A",
+                    "date": "Fall 2019",
+                    "text_items": false,
+                    "descr_items": [
+                        "Examined principles of telecommunication encryption and security",
+                        "Utilized networking tools such as Wireshark, GNS3, and command line utilities"
+                    ]
+                },
+                {
+                    "title": "Information Networks",
+                    "descr": "McClure School of Information and Telecommunications",
+                    "subtitle": "Grade received: A",
+                    "date": "Fall 2019",
+                    "text_items": false,
+                    "descr_items": [
+                        "Explored principles of routing, subnetting, internet protocols, and networking applications"
+                    ]
+                },
+                {
+                    "title": "Scripting in Python",
+                    "descr": "McClure School of Information and Telecommunications",
+                    "subtitle": "Grade received: A",
+                    "date": "Spring 2019",
+                    "text_items": false,
+                    "descr_items": [
+                        "Wrote Python code to script automation and networking tools"
+                    ]
+                },
+                {
+                    "title": "ITS Research Methods",
+                    "descr": "McClure School of Information and Telecommunications",
+                    "subtitle": "Grade received: A",
+                    "date": "Spring 2019",
+                    "text_items": false,
+                    "descr_items": [
+                        "Analyzed networking data using various research methods and tools",
+                        "Developed fundamentals of research methodologies and problem solving"
+                    ]
+                }
+            ]
+        }
+    ]
+}

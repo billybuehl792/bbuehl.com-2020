@@ -15,11 +15,17 @@ def contact():
 
 @app.route('/resume/<string:resume>')
 def resume(resume):
-    r = 'BillyBuehl_Resume.pdf'
+    r = 'resumeMograph_config.json'
+    r_doc = 'BillyBuehl_Resume.pdf'
     if resume == 'IT_Resume':
-        r = 'BillyBuehl_Resume_IT.pdf'
-        
-    return render_template('resume.html', title=resume, resume=r)
+        r = 'resumeIT_config.json'
+        r_doc = 'BillyBuehl_Resume_IT.pdf'
+
+    config = os.path.join(app.root_path, 'static/config', r)
+    with open(config, 'r') as f:
+        d = json.load(f)
+
+    return render_template('resume.html', title=resume, d=d, r_doc=r_doc)
 
 @app.route('/art')
 def art():

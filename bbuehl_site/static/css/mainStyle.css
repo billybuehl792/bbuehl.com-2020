@@ -22,8 +22,6 @@ body {
 a {
     color: var(--light, white);
     text-decoration: none;
-    font-size: 14px;
-    line-height: 18px;
     transition: .1s ease;
 }
 a:hover {
@@ -248,9 +246,6 @@ p {
     p {
         font-size: 15px;
         line-height: 18px;
-    }
-    a {
-        font-size: 15px;
     }
     .content {
         top: 60px;

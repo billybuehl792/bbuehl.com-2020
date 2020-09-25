@@ -1,0 +1,97 @@
+/* Resume Style */
+.resume-container {
+    margin: 15px 15px 45px 15px;
+}
+
+.download {
+    background-color: var(--light, white);
+    color: var(--dark, black);
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+	border: none;
+    text-decoration:none;
+    font-family: 'Raleway', sans-serif;
+    transition: .1s ease;
+}
+.download:hover {
+    background-color: var(--grey, grey);
+    transition: .1s ease;
+}
+
+/* Info */
+.name {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0;
+    line-height: 38px;
+}
+.title {
+    font-weight: 200;
+}
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.contact-item {
+    margin-right: 15px;
+}
+.contact-item:last-child {
+    margin: 0;
+}
+.contact-item, .contact-item a {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+/* Data */
+.section {
+    margin: 10px 5px;
+}
+.item {
+    margin-bottom: 7px;
+}
+.section-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    margin: 0;
+}
+.item-title {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.item-descr {
+    font-weight: 200;
+}
+.item-subtitle {
+    font-size: 11px;
+    font-weight: 300;
+    margin: 0px 10px;
+    line-height: 15px;
+}
+.item-date {
+    font-size: 11px;
+    font-weight: 300;
+    margin: 0px 0px 5px 10px;
+    line-height: 15px;
+}
+.text-item {
+    margin: 0px 10px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.text-head {
+    font-weight: 500;
+}
+.descr-item {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0px 25px;
+}

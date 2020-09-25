@@ -9,6 +9,7 @@
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/resetStyle.css') }}" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/mainStyle.css') }}" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/navStyle.css') }}" rel="stylesheet">
+        {% block head %}{% endblock %}
     </head>
     <body>
 

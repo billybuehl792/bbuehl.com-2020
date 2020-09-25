@@ -1,11 +1,71 @@
-<!doctype html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ title }}</title>
-<link rel="icon" href="{{ url_for('static', filename='img/favicon.png') }}">
-</head>
-<body style="padding: 0px; margin: 0px;">
-	<embed src="{{ url_for('static', filename='resume/' + resume) }}#scrollbar=0" style="position: absolute; height: 100%; width: 100%; border: none; padding: 0px; margin: 0px;">
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/resumeStyle.css') }}" rel="stylesheet">
+{% endblock %}
+
+{% block body %}
+	<div class="resume-container">
+		<button class="download" onclick="window.open('{{ url_for('static', filename='resume/' + r_doc) }}')">
+			Download Resume
+		</button>
+
+		<!-- Contact Info -->
+		<h1 class="name">
+			{{ d['info']['name'] }} <span class="title">| {{ d['info']['title'] }}</span>
+		</h1>
+		<div class="contact-info">
+			<p class="contact-item">
+				<a href="mailto:{{ d['info']['email'] }}">{{ d['info']['email'] }}</a>
+			</p>
+			<p class="contact-item">
+				<a href="{{ d['info']['web'][1] }}">{{ d['info']['web'][0] }}</a>
+			</p>
+			<p class="contact-item">
+				<a href="{{ d['info']['git'][1] }}" target="_blank">{{ d['info']['git'][0] }}</a>
+			</p>
+			<p class="contact-item">{{ d['info']['location'] }}</p>
+		</div>
+
+		<!-- Resume Items-->
+		{% for i in d['sections'] %}
+			<div class="section">
+				<h2 class="section-title">{{ i['title'] }}</h2>
+				{% for x in i['items'] %}
+					<div class="item">
+						{% if x['title'] %}
+							<p class="item-title">{{ x['title'] }}
+								{% if x['descr'] %}
+									<span class="item-descr">| {{ x['descr'] }}</span>
+								{% endif %}
+							</p>
+						{% endif %}
+						{% if x['subtitle'] %}
+							<p class="item-subtitle">{{ x['subtitle'] }}</p>
+						{% endif %}
+						{% if x['date'] %}
+							<p class="item-date">{{ x['date'] }}</p>
+						{% endif %}
+						{% if x['text_items'] %}
+							{% for y in x['text_items'] %}
+								<p class="text-item">
+								{% if y['title'] %}
+									<span class="text-head">{{ y['title'] }}</span>:
+								{% endif %}
+								{{ y['text'] }}
+								</p>
+							{% endfor %}
+						{% endif %}
+						{% if x['descr_items'] %}
+							<ul class="descr-items">
+								{% for z in x['descr_items'] %}
+									<li class="descr-item">{{ z }}</li>
+								{% endfor %}
+							</ul>
+						{% endif %}
+					</div>
+				{% endfor%}
+			</div>
+		{% endfor %}
+	</div>
+{% endblock %}
