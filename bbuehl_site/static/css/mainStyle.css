@@ -264,14 +264,14 @@ p {
 
     /* ART */
     .art-piece {
-        width: 80%;
-        margin-bottom: 10px;
+        width: 100%;
+        padding-bottom: 100px;
     }
-    .art-piece:first-of-type {
-        margin-top: 10px;
+    .art-piece:hover .art-title {
+        height: 100px;
     }
     .art-title {
-        height: 50px;
+        height: 100px;
         opacity: 1;
     }
     .art-title h3, a {
