@@ -172,65 +172,6 @@
                     "descr_items": false
                 }
             ]
-        },
-        {
-            "title": "Relevant IT Coursework",
-            "items": [
-                {
-                    "title": "Internet Engineering",
-                    "descr": "McClure School of Information and Telecommunications",
-                    "subtitle": "Grade received: A",
-                    "date": "Fall 2019",
-                    "text_items": false,
-                    "descr_items": [
-                        "Explored the concepts of IP addressing, router configuration, and network infrastructure",
-                        "Utilized networking tools such as Wireshark, GNS3, and command line utilities",
-                        "Configured and managed local area networks on Windows, Linux, and Mac operating systems"
-                    ]
-                },
-                {
-                    "title": "Encrypted Communication",
-                    "descr": "McClure School of Information and Telecommunications",
-                    "subtitle": "Grade received: A",
-                    "date": "Fall 2019",
-                    "text_items": false,
-                    "descr_items": [
-                        "Examined principles of telecommunication encryption and security",
-                        "Utilized networking tools such as Wireshark, GNS3, and command line utilities"
-                    ]
-                },
-                {
-                    "title": "Information Networks",
-                    "descr": "McClure School of Information and Telecommunications",
-                    "subtitle": "Grade received: A",
-                    "date": "Fall 2019",
-                    "text_items": false,
-                    "descr_items": [
-                        "Explored principles of routing, subnetting, internet protocols, and networking applications"
-                    ]
-                },
-                {
-                    "title": "Scripting in Python",
-                    "descr": "McClure School of Information and Telecommunications",
-                    "subtitle": "Grade received: A",
-                    "date": "Spring 2019",
-                    "text_items": false,
-                    "descr_items": [
-                        "Wrote Python code to script automation and networking tools"
-                    ]
-                },
-                {
-                    "title": "ITS Research Methods",
-                    "descr": "McClure School of Information and Telecommunications",
-                    "subtitle": "Grade received: A",
-                    "date": "Spring 2019",
-                    "text_items": false,
-                    "descr_items": [
-                        "Analyzed networking data using various research methods and tools",
-                        "Developed fundamentals of research methodologies and problem solving"
-                    ]
-                }
-            ]
         }
     ]
 }
