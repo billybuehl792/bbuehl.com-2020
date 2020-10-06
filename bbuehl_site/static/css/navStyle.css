@@ -9,9 +9,15 @@ nav {
     box-shadow: 0px 0px 4px var(--dark, black);
 }
 #logo {
-    width: 100px;
-    margin: 10px 0px;
-    height: auto;
+    color: var(--dark, black);
+    font-size: 27px;
+    font-weight: 800;
+    margin: 35px 0px;
+    transition: .1s ease;
+}
+#logo:hover {
+    color: var(--grey, grey);
+    transition: .1s ease;
 }
 #burger {
     display: none;
@@ -63,8 +69,9 @@ nav {
         transition: .2s ease;
     }
     #logo {
-        width: 45px;
-        margin: 5px 0px 0px 0px;
+        font-size: 20px;
+        font-weight: 800;
+        margin: 10px auto 0px auto;
     }
     #burger {
         display: block;
