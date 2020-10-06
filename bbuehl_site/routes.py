@@ -46,3 +46,7 @@ def development():
 @app.errorhandler(404)
 def error(e):
     return render_template('error.html', title='Error', e='404 Page Not Found!')
+
+@app.errorhandler(403)
+def error(e):
+    return render_template('error.html', title='Error', e='403 SCRAM!')
