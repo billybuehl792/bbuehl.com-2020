@@ -7,9 +7,9 @@ import os
 def mk_thumbnail(img, size):
     fn, _ = os.path.splitext(img)
     filename = f'{fn}_thumbnail.png'
-    output = f'art_site/static/thumbnail/{filename}'
+    output = f'bbuehl_site/static/thumbnail/{filename}'
 
-    i = Image.open(f'art_site/static/art/{img}')
+    i = Image.open(img)
     resize = i.size[0]
 
     if i.size[0] > i.size[1]:

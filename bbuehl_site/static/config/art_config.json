@@ -19,9 +19,21 @@
             "link": false
         },
         {
+            "title": "Frank Tank",
+            "image": "frankTank.gif",
+            "thumbnail": "frankTank_thumbnail.png",
+            "link": false
+        },
+        {
             "title": "Marching Men",
             "image": "men.jpg",
             "thumbnail": "men_thumbnail.png",
+            "link": false
+        },
+        {
+            "title": "Blue Boys",
+            "image": "blueBoys.png",
+            "thumbnail": "blueBoys_thumbnail.png",
             "link": false
         },
         {
@@ -31,21 +43,15 @@
             "link": "https://www.youtube.com/watch?v=OfKMCBMR5-Y&fbclid=IwAR1S9pgKSZpyaInqvVgL28pC-2lRzgszArkP1gbDHGlhy_kClm4o04RqnOE"
         },
         {
-            "title": "Blue Boys",
-            "image": "blueBoys.png",
-            "thumbnail": "blueBoys_thumbnail.png",
+            "title": "Low Poly City",
+            "image": "cityStreet.jpg",
+            "thumbnail": "cityStreet_thumbnail.png",
             "link": false
         },
         {
             "title": "My Friend Chuck",
             "image": "chuck.jpg",
             "thumbnail": "chuck_thumbnail.png",
-            "link": false
-        },
-        {
-            "title": "Low Poly City",
-            "image": "cityStreet.jpg",
-            "thumbnail": "cityStreet_thumbnail.png",
             "link": false
         },
         {
