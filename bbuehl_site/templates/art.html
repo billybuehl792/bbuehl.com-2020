@@ -1,15 +1,17 @@
 {% extends "base.html" %}
 
 {% block body %}
-    <div id="player" class="player" onclick="imageViewer()">
-        <div id="image-container">
-            <img id="focus-image" src="" alt="">
-        </div>
+
+    <!-- IMAGE/ VIDEO PLAYER -->
+    <div id="player" class="player" onclick="viewer()">
+        <div id="focus-container"></div>
     </div>
+
+    <!-- ART ITEMS -->
     <div class="art-container">
     {% for entry in d %}
-        <div class="art-piece" onclick="imageViewer('{{ url_for('static', filename='art/' + entry['image'] ) }}')">
-            <img src="{{ url_for('static', filename='thumbnail/' + entry['thumbnail'] ) }}" alt="{{ entry['title'] }}">
+        <div class="{{ entry['class'] }}" onclick="viewer('{{ entry['piece'] }}', '{{ entry['media'] }}', '{{ entry['title'] }}')">
+            <img src="{{ entry['thumbnail'] }}" alt="{{ entry['title'] }}">
             <div class="art-title">
                 <h3>{{ entry['title'] }}</h3>
                 {% if entry['link'] %}
@@ -19,4 +21,5 @@
         </div>
     {% endfor %}
     </div>
+    
 {% endblock %}

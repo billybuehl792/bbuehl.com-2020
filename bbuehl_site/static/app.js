@@ -35,13 +35,35 @@ function activeNav() {
 }
 
 // open viewer
-function imageViewer(image="") {
+function viewer(source="", mediaType="", title="") {
     var playerWindow = document.getElementById("player");
-    var focusImage = document.getElementById("focus-image");
+    var focusContainer = document.getElementById("focus-container");
 
+    if (mediaType == "video") {
+        // display iframe
+        var frame = document.createElement("iframe");
+        frame.src = source;
+        frame.width = "720";
+        frame.height = "480";
+        frame.border = "0";
+        frame.id = "focus-item";
+        frame.title = title;
+        frame.allowFullscreen = true;
+        focusContainer.appendChild(frame);
+    } else if (mediaType == "image") {
+        // display image
+        var image = document.createElement("img");
+        image.id = "focus-item";
+        image.src = source;
+        image.alt = title;
+        focusContainer.appendChild(image);
+    } else {
+        // clear focus container
+        focusContainer.innerHTML = "";
+    }
+
+    // display viewer
     playerWindow.classList.toggle("player-active");
-    console.log(image);
-    focusImage.src = image;
 }
 
 // mobile height

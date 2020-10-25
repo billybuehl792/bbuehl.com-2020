@@ -1,118 +1,180 @@
 {
     "art_items": [
         {
+            "title": "Demo Reel",
+            "piece": "https://player.vimeo.com/video/471805566",
+            "thumbnail": "static/thumbnail/demoReel_thumbnail.png",
+            "class": "featured",
+            "media": "video",
+            "link": "https://vimeo.com/471805566"
+        },
+        {
             "title": "Wastemen Album Art",
-            "image": "album_art.jpg",
-            "thumbnail": "album_art_thumbnail.png",
+            "piece": "static/art/album_art.jpg",
+            "thumbnail": "static/thumbnail/album_art_thumbnail.png",
+            "class": "piece",
+            "media": "image",
             "link": "https://open.spotify.com/artist/6rfotGgqU6Cw46Gb3Wc7pv?si=JQe-7ovbTEaVZeWVpFYj0Q"
         },
         {
             "title": "Landscape Digital Drawing",
-            "image": "landscape.jpg",
-            "thumbnail": "landscape_thumbnail.png",
+            "piece": "static/art/landscape.jpg",
+            "thumbnail": "static/thumbnail/landscape_thumbnail.png",
+            "class": "piece",
+            "media": "image",
             "link": false
         },
         {
             "title": "Gig Poster",
-            "image": "gigPoster_1.jpg",
-            "thumbnail": "gigPoster_1_thumbnail.png",
+            "piece": "static/art/gigPoster_1.jpg",
+            "thumbnail": "static/thumbnail/gigPoster_1_thumbnail.png",
+            "class": "piece",
+            "media": "image",
             "link": false
         },
         {
             "title": "Frank Tank",
-            "image": "frankTank.gif",
-            "thumbnail": "frankTank_thumbnail.png",
-            "link": false
+            "piece": "static/art/frankTank.gif",
+            "thumbnail": "static/thumbnail/frankTank_thumbnail.png",
+            "class": "piece",
+            "media": "image",
+            "link": "https://www.instagram.com/kevinjosephcole_art/"
         },
         {
             "title": "Marching Men",
-            "image": "men.jpg",
-            "thumbnail": "men_thumbnail.png",
-            "link": false
+            "piece": "static/art/men.jpg",
+            "thumbnail": "static/thumbnail/men_thumbnail.png",
+            "class": "piece",
+            "media": "image",
+            "link": "https://www.instagram.com/kevinjosephcole_art/"
         },
         {
             "title": "Blue Boys",
-            "image": "blueBoys.png",
-            "thumbnail": "blueBoys_thumbnail.png",
-            "link": false
+            "piece": "static/art/blueBoys.png",
+            "thumbnail": "static/thumbnail/blueBoys_thumbnail.png",
+            "class": "piece",
+            "media": "image",
+            "link": "https://www.instagram.com/kevinjosephcole_art/"
         },
         {
             "title": "Cleveland DIY Album Art",
-            "image": "wesAlbum.jpg",
-            "thumbnail": "wesAlbum_thumbnail.png",
+            "piece": "static/art/wesAlbum.jpg",
+            "thumbnail": "static/thumbnail/wesAlbum_thumbnail.png",
+            "class": "piece",
+            "media": "image",
             "link": "https://www.youtube.com/watch?v=OfKMCBMR5-Y&fbclid=IwAR1S9pgKSZpyaInqvVgL28pC-2lRzgszArkP1gbDHGlhy_kClm4o04RqnOE"
         },
         {
+            "title": "Reindeer Painting",
+            "piece": "static/art/reindeer.jpg",
+            "thumbnail": "static/thumbnail/reindeer_thumbnail.png",
+            "class": "piece",
+            "media": "image",
+            "link": false
+        },
+        {
             "title": "Low Poly City",
-            "image": "cityStreet.jpg",
-            "thumbnail": "cityStreet_thumbnail.png",
+            "piece": "static/art/car_collision.gif",
+            "thumbnail": "static/thumbnail/cityStreet_thumbnail.png",
+            "class": "featured",
+            "media": "image",
             "link": false
         },
         {
             "title": "My Friend Chuck",
-            "image": "chuck.jpg",
-            "thumbnail": "chuck_thumbnail.png",
-            "link": false
-        },
-        {
-            "title": "Reindeer Painting",
-            "image": "reindeer.jpg",
-            "thumbnail": "reindeer_thumbnail.png",
+            "piece": "static/art/chuck.jpg",
+            "thumbnail": "static/thumbnail/chuck_thumbnail.png",
+            "class": "piece",
+            "media": "image",
             "link": false
         },
         {
             "title": "KJC",
-            "image": "atlas.jpg",
-            "thumbnail": "atlas_thumbnail.png",
+            "piece": "static/art/atlas.jpg",
+            "thumbnail": "static/thumbnail/atlas_thumbnail.png",
+            "class": "piece",
+            "media": "image",
             "link": "https://www.instagram.com/kevinjosephcole_art/"
         },        
         {
             "title": "Guerilla Toss Gig Animation",
-            "image": "guerillaToss.gif",
-            "thumbnail": "guerillaToss_thumbnail.png",
+            "piece": "static/art/guerillaToss.gif",
+            "thumbnail": "static/thumbnail/guerillaToss_thumbnail.png",
+            "class": "piece",
+            "media": "image",
             "link": "https://vimeo.com/330350032"
         },
         {
             "title": "Wastemen Logo",
-            "image": "wastemen.jpg",
-            "thumbnail": "wastemen_thumbnail.png",
+            "piece": "static/art/wastemen.jpg",
+            "thumbnail": "static/thumbnail/wastemen_thumbnail.png",
+            "class": "piece",
+            "media": "image",
             "link": "https://open.spotify.com/artist/6rfotGgqU6Cw46Gb3Wc7pv?si=JQe-7ovbTEaVZeWVpFYj0Q"
         },
         {
             "title": "3D Rifle + Animation",
-            "image": "rifle.gif",
-            "thumbnail": "rifle_thumbnail.png",
+            "piece": "static/art/rifle_1.gif",
+            "thumbnail": "static/thumbnail/rifle_thumbnail.png",
+            "class": "piece",
+            "media": "image",
             "link": false
         },
         {
             "title": "Drawing of a Man",
-            "image": "blackMan.jpg",
-            "thumbnail": "blackMan_thumbnail.png",
+            "piece": "static/art/blackMan.jpg",
+            "thumbnail": "static/thumbnail/blackMan_thumbnail.png",
+            "class": "piece",
+            "media": "image",
             "link": "https://www.instagram.com/kevinjosephcole_art/"
         },
         {
             "title": "Jack Loth Album Art",
-            "image": "jackLoth.jpg",
-            "thumbnail": "jackLoth_thumbnail.png",
+            "piece": "static/art/jackLoth.jpg",
+            "thumbnail": "static/thumbnail/jackLoth_thumbnail.png",
+            "class": "piece",
+            "media": "image",
             "link": "https://open.spotify.com/artist/6YuI9rrlTNfsArPqmQpVpu?si=dt6PeIl9QmKQ0GMGOleQPA"
         },
         {
             "title": "Garbage Truck Animation",
-            "image": "garbageTruck.gif",
-            "thumbnail": "garbageTruck_thumbnail.png",
+            "piece": "static/art/garbageTruck.gif",
+            "thumbnail": "static/thumbnail/garbageTruck_thumbnail.png",
+            "class": "piece",
+            "media": "image",
+            "link": false
+        },
+        {
+            "title": "Progressive Virtual Internship",
+            "piece": "static/art/progressive.gif",
+            "thumbnail": "static/thumbnail/progressive_thumbnail.png",
+            "class": "piece",
+            "media": "image",
             "link": false
         },
         {
             "title": "3D Sword",
-            "image": "sword.jpg",
-            "thumbnail": "sword_thumbnail.png",
+            "piece": "static/art/sword.jpg",
+            "thumbnail": "static/thumbnail/sword_thumbnail.png",
+            "class": "piece",
+            "media": "image",
             "link": false
         },
         {
             "title": "Rat Buster",
-            "image": "buster.jpg",
-            "thumbnail": "buster_thumbnail.png",
+            "piece": "static/art/buster.jpg",
+            "thumbnail": "static/thumbnail/buster_thumbnail.png",
+            "class": "piece",
+            "media": "image",
             "link": false
+        },
+        {
+            "title": "Sketchbook Drawings",
+            "piece": "static/art/sketchbook.jpg",
+            "thumbnail": "static/thumbnail/sketchbook_thumbnail.png",
+            "class": "piece",
+            "media": "image",
+            "link": "https://www.instagram.com/kevinjosephcole_art/"
         }
     ]
 }
