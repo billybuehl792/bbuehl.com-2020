@@ -5,14 +5,14 @@
             "subtitle": "Javascript/ HTML/ CSS",
             "descr": "Javascript/ HTML/ CSS Web UI for calculating IPv4 and IPv6 subnets given subnet mask and desired subnet count. Technical explanation of numeral systems and base conversion also included.",
             "code": "https://github.com/billybuehl792/Simple-Subnet-Calculator",
-            "link": "http://www.its.ohio.edu/ip-calc/"
+            "link": false
         },
         {
             "title": "Green Roof Frontend Live-Data Server",
             "subtitle": "Python3 + Flask/ HTML/ CSS/ Javascript",
             "descr": "Python3 + Flask air quality live data collection and monitoring server.",
             "code": "https://github.com/billybuehl792/Green-Roof-DataServer",
-            "link": "http://157.230.51.129/"
+            "link": false
         },
         {
             "title": "Crypto-Currency Mining and Brute Force Tools",
@@ -53,8 +53,8 @@
             "title": "Visual Art Portfolio Site",
             "subtitle": "Python3 + Flask/ HTML/ CSS/ Javascript",
             "descr": "Python3 + Flask art portfolio website.",
-            "code": "https://github.com/billybuehl792/felicity.com",
-            "link": false
+            "code": "https://github.com/billybuehl792/felicity_site",
+            "link": "http://www.felicitygunn.com"
         },
         {
             "title": "Raspberry PI VPN",
