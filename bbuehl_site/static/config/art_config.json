@@ -41,6 +41,14 @@
             "link": "https://www.instagram.com/kevinjosephcole_art/"
         },
         {
+            "title": "Portrait of Woman",
+            "piece": "static/art/woman.jpg",
+            "thumbnail": "static/thumbnail/woman_thumbnail.png",
+            "class": "piece",
+            "media": "image",
+            "link": "https://www.instagram.com/kevinjosephcole_art/"
+        },
+        {
             "title": "Marching Men",
             "piece": "static/art/men.jpg",
             "thumbnail": "static/thumbnail/men_thumbnail.png",
@@ -52,6 +60,14 @@
             "title": "Blue Boys",
             "piece": "static/art/blueBoys.png",
             "thumbnail": "static/thumbnail/blueBoys_thumbnail.png",
+            "class": "piece",
+            "media": "image",
+            "link": "https://www.instagram.com/kevinjosephcole_art/"
+        },
+        {
+            "title": "Drawing of a Woman",
+            "piece": "static/art/woman1.jpg",
+            "thumbnail": "static/thumbnail/woman1_thumbnail.png",
             "class": "piece",
             "media": "image",
             "link": "https://www.instagram.com/kevinjosephcole_art/"
@@ -71,6 +87,14 @@
             "class": "piece",
             "media": "image",
             "link": false
+        },
+        {
+            "title": "Voshy",
+            "piece": "static/art/voshy.jpg",
+            "thumbnail": "static/thumbnail/voshy_thumbnail.png",
+            "class": "piece",
+            "media": "image",
+            "link": "https://www.instagram.com/kevinjosephcole_art/"
         },
         {
             "title": "Low Poly City",
