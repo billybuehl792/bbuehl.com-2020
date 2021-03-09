@@ -45,6 +45,20 @@
             "title": "Relevant Professional Experience",
             "items": [
                 {
+                    "title": "Web Developer/ Multimedia Designer",
+                    "descr": "NASA Safety Center",
+                    "subtitle": "Cleveland, Ohio",
+                    "date": "January 2021 -",
+                    "text_items": false,
+                    "descr_items": [
+                        "Develop automation applications using python",
+                        "Create web pages and apps using HTML/ CSS/ JS and JQuery",
+                        "Design icons and illustrations using Adobe Illustrator",
+                        "Build NASA Safety Center course animations with Adobe Animate",
+                        "Collaborate with NASA Safety Center professionals to create web and multimedia content"
+                    ]
+                },
+                {
                     "title": "Internet Engineering TA",
                     "descr": "Ohio University Computer Science",
                     "subtitle": "Athens, Ohio",

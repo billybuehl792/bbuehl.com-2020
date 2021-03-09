@@ -57,6 +57,14 @@
             "link": "https://www.instagram.com/kevinjosephcole_art/"
         },
         {
+            "title": "Duck Walk",
+            "piece": "static/art/duckWalk.gif",
+            "thumbnail": "static/thumbnail/duckWalk_thumbnail.png",
+            "class": "piece",
+            "media": "image",
+            "link": "https://www.instagram.com/kevinjosephcole_art/"
+        },
+        {
             "title": "Marching Men",
             "piece": "static/art/men.jpg",
             "thumbnail": "static/thumbnail/men_thumbnail.png",
@@ -81,28 +89,12 @@
             "link": "https://www.instagram.com/kevinjosephcole_art/"
         },
         {
-            "title": "Duck Walk",
-            "piece": "static/art/duckWalk.gif",
-            "thumbnail": "static/thumbnail/duckWalk_thumbnail.png",
-            "class": "piece",
-            "media": "image",
-            "link": "https://www.instagram.com/kevinjosephcole_art/"
-        },
-        {
             "title": "Cleveland DIY Album Art",
             "piece": "static/art/wesAlbum.jpg",
             "thumbnail": "static/thumbnail/wesAlbum_thumbnail.png",
             "class": "piece",
             "media": "image",
             "link": "https://www.youtube.com/watch?v=OfKMCBMR5-Y&fbclid=IwAR1S9pgKSZpyaInqvVgL28pC-2lRzgszArkP1gbDHGlhy_kClm4o04RqnOE"
-        },
-        {
-            "title": "Reindeer Painting",
-            "piece": "static/art/reindeer.jpg",
-            "thumbnail": "static/thumbnail/reindeer_thumbnail.png",
-            "class": "piece",
-            "media": "image",
-            "link": false
         },
         {
             "title": "Voshy",
@@ -117,6 +109,14 @@
             "piece": "static/art/car_collision.gif",
             "thumbnail": "static/thumbnail/cityStreet_thumbnail.png",
             "class": "featured",
+            "media": "image",
+            "link": false
+        },
+        {
+            "title": "Reindeer Painting",
+            "piece": "static/art/reindeer.jpg",
+            "thumbnail": "static/thumbnail/reindeer_thumbnail.png",
+            "class": "piece",
             "media": "image",
             "link": false
         },
