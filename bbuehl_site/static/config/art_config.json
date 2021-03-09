@@ -25,6 +25,14 @@
             "link": false
         },
         {
+            "title": "Cartoons",
+            "piece": "static/art/cartoons.jpg",
+            "thumbnail": "static/thumbnail/cartoons_thumbnail.png",
+            "class": "piece",
+            "media": "image",
+            "link": false
+        },
+        {
             "title": "Gig Poster",
             "piece": "static/art/gigPoster_1.jpg",
             "thumbnail": "static/thumbnail/gigPoster_1_thumbnail.png",
@@ -68,6 +76,14 @@
             "title": "Drawing of a Woman",
             "piece": "static/art/woman1.jpg",
             "thumbnail": "static/thumbnail/woman1_thumbnail.png",
+            "class": "piece",
+            "media": "image",
+            "link": "https://www.instagram.com/kevinjosephcole_art/"
+        },
+        {
+            "title": "Duck Walk",
+            "piece": "static/art/duckWalk.gif",
+            "thumbnail": "static/thumbnail/duckWalk_thumbnail.png",
             "class": "piece",
             "media": "image",
             "link": "https://www.instagram.com/kevinjosephcole_art/"
