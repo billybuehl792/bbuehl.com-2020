@@ -113,6 +113,14 @@
             "link": false
         },
         {
+            "title": "Elephant March",
+            "piece": "static/art/elephant.gif",
+            "thumbnail": "static/thumbnail/elephant_thumbnail.png",
+            "class": "piece",
+            "media": "image",
+            "link": false
+        },
+        {
             "title": "Reindeer Painting",
             "piece": "static/art/reindeer.jpg",
             "thumbnail": "static/thumbnail/reindeer_thumbnail.png",
