@@ -35,6 +35,14 @@ def art():
 
     return render_template('art.html', title='Art', d=d)
 
+@app.route('/sketchbook')
+def sketchbook():
+    config = os.path.join(app.root_path, 'static/config', 'sketchbook_config.json')
+    with open(config, 'r') as f:
+        d = json.load(f)['sketchbook_items']
+
+    return render_template('art.html', title='Sketchbook', d=d)
+
 @app.route('/development')
 def development():
     config = os.path.join(app.root_path, 'static/config', 'dev_config.json')

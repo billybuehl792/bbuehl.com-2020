@@ -1,5 +1,6 @@
+.vscode
 __pycache__
 venv/
 notes/
 bb_site.wsgi
-Icon
+Icon
