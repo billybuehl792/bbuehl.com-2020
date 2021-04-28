@@ -25,6 +25,14 @@
             "link": false
         },
         {
+            "title": "Music Man",
+            "piece": "static/art/music_man.jpg",
+            "thumbnail": "static/thumbnail/music_man_thumbnail.png",
+            "class": "piece",
+            "media": "image",
+            "link": false
+        },
+        {
             "title": "Cartoons",
             "piece": "static/art/cartoons.jpg",
             "thumbnail": "static/thumbnail/cartoons_thumbnail.png",
@@ -63,6 +71,14 @@
             "class": "piece",
             "media": "image",
             "link": "https://www.instagram.com/kevinjosephcole_art/"
+        },
+        {
+            "title": "More Cartoons",
+            "piece": "static/art/cartoons1.jpg",
+            "thumbnail": "static/thumbnail/cartoons1_thumbnail.png",
+            "class": "piece",
+            "media": "image",
+            "link": false
         },
         {
             "title": "Wehrmacht Soldat",
@@ -137,6 +153,14 @@
             "link": false
         },
         {
+            "title": "Abstract Art",
+            "piece": "static/art/man.jpg",
+            "thumbnail": "static/thumbnail/man_thumbnail.png",
+            "class": "piece",
+            "media": "image",
+            "link": false
+        },
+        {
             "title": "KJC",
             "piece": "static/art/atlas.jpg",
             "thumbnail": "static/thumbnail/atlas_thumbnail.png",
@@ -175,6 +199,14 @@
             "class": "piece",
             "media": "image",
             "link": "https://www.instagram.com/kevinjosephcole_art/"
+        },
+        {
+            "title": "Portrait of a Woman",
+            "piece": "static/art/woman2.jpg",
+            "thumbnail": "static/thumbnail/woman2_thumbnail.png",
+            "class": "piece",
+            "media": "image",
+            "link": false
         },
         {
             "title": "Jack Loth Album Art",
