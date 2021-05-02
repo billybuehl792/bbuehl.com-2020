@@ -41,9 +41,9 @@
             "link": false
         },
         {
-            "title": "Gig Poster",
-            "piece": "static/art/gigPoster_1.jpg",
-            "thumbnail": "static/thumbnail/gigPoster_1_thumbnail.png",
+            "title": "Nikacado",
+            "piece": "static/art/nikacado.jpg",
+            "thumbnail": "static/thumbnail/nikacado_thumbnail.png",
             "class": "piece",
             "media": "image",
             "link": false
@@ -81,12 +81,12 @@
             "link": false
         },
         {
-            "title": "Wehrmacht Soldat",
-            "piece": "static/art/wehrmacht.jpg",
-            "thumbnail": "static/thumbnail/wehrmacht_thumbnail.png",
+            "title": "Gig Poster",
+            "piece": "static/art/gigPoster_1.jpg",
+            "thumbnail": "static/thumbnail/gigPoster_1_thumbnail.png",
             "class": "piece",
             "media": "image",
-            "link": "https://www.instagram.com/kevinjosephcole_art/"
+            "link": false
         },
         {
             "title": "Blue Boys",
@@ -255,6 +255,14 @@
             "class": "piece",
             "media": "image",
             "link": false
+        },
+        {
+            "title": "Wehrmacht Soldat",
+            "piece": "static/art/wehrmacht.jpg",
+            "thumbnail": "static/thumbnail/wehrmacht_thumbnail.png",
+            "class": "piece",
+            "media": "image",
+            "link": "https://www.instagram.com/kevinjosephcole_art/"
         },
         {
             "title": "Sketchbook Drawings",
