@@ -1,0 +1,42 @@
+{
+    "art_entries": [
+        {
+            "title": "Title",
+            "subtitle": false,
+            "descr": false,
+            "image": false,
+            "thumbnail": false,
+            "style": ["featured"],
+            "link": false
+        }, 
+        {
+            "title": "Title",
+            "subtitle": false,
+            "descr": false,
+            "image": false,
+            "thumbnail": false,
+            "style": ["featured"],
+            "link": false
+        }
+    ],
+    "sketch_entries": [
+        {
+            "title": "Title",
+            "subtitle": false,
+            "descr": false,
+            "image": false,
+            "thumbnail": false,
+            "style": ["featured"],
+            "link": false
+        }
+    ],
+    "dev_entries": [
+        {
+            "title": "Title",
+            "subtitle": "Subtitle",
+            "descr": false,
+            "link": false,
+            "code": false
+        }
+    ]
+}

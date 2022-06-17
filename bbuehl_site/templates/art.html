@@ -8,9 +8,20 @@
     </div>
 
     <!-- ART ITEMS -->
-    <div class="art-container">
+    <div class="large-container">
+
+        <template id="project-template">
+            <div class="image-container">
+                <img id="piece"/>
+                <div class="piece-descr">
+                    <h3 class="title" id="title"></h3>
+                    <a class="link-light" target="_blank" id="link"></a>
+                </div>
+            </div>
+        </template>
+
     {% for entry in d %}
-        <div class="{{ entry['class'] }}" onclick="viewer('{{ entry['piece'] }}', '{{ entry['media'] }}', '{{ entry['title'] }}')">
+        <div class="image-container {{ entry['class'] }}" onclick="viewer('{{ entry['piece'] }}', '{{ entry['media'] }}', '{{ entry['title'] }}')">
             <img src="{{ entry['thumbnail'] }}" alt="{{ entry['title'] }}" loading="lazy">
             <div class="art-title">
                 <h3>{{ entry['title'] }}</h3>

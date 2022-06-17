@@ -1,58 +1,86 @@
 {
     "dev_items": [
         {
-            "title": "Subnet Calculator and Base Conversion",
-            "subtitle": "Javascript/ HTML/ CSS",
-            "descr": "Javascript/ HTML/ CSS Web UI for calculating IPv4 and IPv6 subnets given subnet mask and desired subnet count. Technical explanation of numeral systems and base conversion also included.",
-            "code": "https://github.com/billybuehl792/Simple-Subnet-Calculator",
-            "link": false
+            "title": "AE Effects and Presets Library",
+            "subtitle": "Javascript",
+            "descr": "Automation tools and effect presets for Adobe After Effects",
+            "code": "https://github.com/bbuehl4040/Expand-After-Effects-Presets/wiki/AutoArrow",
+            "link": "https://github.com/bbuehl4040/Expand-After-Effects-Presets/wiki"
         },
         {
             "title": "Green Roof Frontend Live-Data Server",
-            "subtitle": "Python3 + Flask/ HTML/ CSS/ Javascript",
+            "subtitle": "Python + Flask/HTML/CSS/Javascript",
             "descr": "Python3 + Flask air quality live data collection and monitoring server.",
             "code": "https://github.com/billybuehl792/Green-Roof-DataServer",
             "link": false
         },
         {
+            "title": "Sudoku Solver",
+            "subtitle": "Python",
+            "descr": "Solves sudoku puzzles with board size n using backtracking",
+            "code": "https://github.com/billybuehl792/Sudoku-Solver",
+            "link": false
+        },
+        {
+            "title": "NSC Course Slide Framework",
+            "subtitle": "Javascript/HTML/CSS",
+            "descr": "JSON configurable frontend framework for slide courses",
+            "code": "https://github.com/billybuehl792/NSC-Course-Framework/blob/master/js/app.js",
+            "link": false
+        },
+        {
+            "title": "NSC pycourse",
+            "subtitle": "Python",
+            "descr": "Python library for converting pptx slide decks into docx, xml, and txt files",
+            "code": "https://github.com/billybuehl792/pycourse",
+            "link": false
+        },
+        {
+            "title": "Subnet Calculator and Base Conversion",
+            "subtitle": "Javascript/HTML/CSS",
+            "descr": "Javascript/HTML/CSS Web UI for calculating IPv4 and IPv6 subnets given subnet mask and desired subnet count. Technical explanation of numeral systems and base conversion also included.",
+            "code": "https://github.com/billybuehl792/Simple-Subnet-Calculator",
+            "link": false
+        },
+        {
             "title": "Crypto-Currency Mining and Brute Force Tools",
-            "subtitle": "Python3",
-            "descr": "Iteration tools without the use of libraries. Demonstrates recursive iteration through each permutation of a given keyspace of size n along with crypto-currency mining and private/ public key creation.",
+            "subtitle": "Python",
+            "descr": "Iteration tools without the use of libraries. Demonstrates recursive iteration through each permutation of a keyspace of size n along with crypto-currency mining and private/ public key creation.",
             "code": "https://github.com/billybuehl792/brute-and-mine",
             "link": false
         },
         {
             "title": "Customer Database and Estimation Tools Web App",
-            "subtitle": "Python3 + Flask/ HTML/ CSS/ Javascript",
+            "subtitle": "Python3 + Flask/HTML/CSS/Javascript",
             "descr": "Frontend + backend python3 flask server with user login + permission settings. HTML/ CSS/ Javascript calculator along with customer MySQL database. (Deployed on LAN Linux server)",
             "code": "https://github.com/billybuehl792/AB-site",
             "link": false
         },
         {
             "title": "Distance Vector Router Simulation",
-            "subtitle": "Python3/ threading library",
+            "subtitle": "Python",
             "descr": "Multi-threaded command line python routers which communicate through sockets specified in topology configuration file. Routers determine best path through auto-correcting best path distance vector algorithm",
             "code": "https://github.com/billybuehl792/DV-Router-Simulation",
             "link": false
         },
         {
-            "title": "Green Roof Data Collection/ Monitoring Server",
-            "subtitle": "Zabbix4.0 + Apache2 + Python3",
+            "title": "Green Roof Data Collection/Monitoring Server",
+            "subtitle": "Zabbix4.0 + Apache2 + Python",
             "descr": "Zabbix monitoring software for environmental data collection and representation with secure Apache2 HTTPS server for frontend UI with signed certificate. Python scripts used for external checks/ interactions with data logging devices and 3rd party APIs.",
             "code": "https://github.com/billybuehl792/purpleAir",
             "link": "https://zabbix.its.ohio.edu/zabbix/"
         },
         {
             "title": "Passvault Password Manager",
-            "subtitle": "Python3/ cryptography library",
+            "subtitle": "Python",
             "descr": "Command line password manager with file and password encryption/ decryption functionality. Append, edit, and delete password entries. Built-in password generator.",
             "code": "https://github.com/billybuehl792/passvault",
             "link": false
         },
         {
             "title": "Visual Art Portfolio Site",
-            "subtitle": "Python3 + Flask/ HTML/ CSS/ Javascript",
-            "descr": "Python3 + Flask art portfolio website.",
+            "subtitle": "Python + Flask/HTML/CSS/Javascript",
+            "descr": "Python + Flask art portfolio website.",
             "code": "https://github.com/billybuehl792/felicity_site",
             "link": "http://www.felicitygunn.com"
         },

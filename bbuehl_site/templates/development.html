@@ -1,26 +1,28 @@
 {% extends "base.html" %}
 
 {% block body %}
+    <div class="small-container">
+        
+        <h2 class="title">Development Projects</h2>
 
-    <div class="dev-container">
-        <h2 class="dev-title">Development Projects</h2>
-    {% for entry in d %}
-        <div class="project-container">
-            <h3 class="project-title">{{ entry['title'] }}</h3>
-            <h4 class="project-subtitle">{{ entry['subtitle'] }}</h4>
-            <p class="project-description">{{ entry['descr'] }}</p>
-            {% if entry['code'] %}
-            <p class="link">
-                <a href="{{ entry['code'] }}" target="_blank">View Code</a>
-            </p>
-            {% endif%}
-            {% if entry['link'] %}
-            <p class="link">
-                <a href="{{ entry['link'] }}" target="_blank">View Project</a>
-            </p>
-            {% endif%}
+        <div id="entries">
+
+            <!-- Entry Template -->
+            <template id="project-template">
+                <div class="entry-container">
+                    <h2 class="title" id="title"></h3>
+                    <h3 class="subtitle" id="subtitle"></h3>
+                    <p class="paragraph" id="description"></p>
+                </div>
+            </template>
+
         </div>
-    {% endfor %}
+
+        <!-- Spinner -->
+        <div id="sentinel">
+            <p class="wrapper">loading...</p>
+        </div>
+
     </div>
 
 {% endblock %}

@@ -1,35 +1,25 @@
-<nav>
+<nav class="noselect">
 
     <!-- Logo -->
     <a href="{{ url_for('home') }}">
-        <h1 id="logo">bbuehl.com</h1>
+        <h1 id="logo" class="link-dark">bbuehl.com</h1>
     </a>
 
-    <!-- mobile burger -->
-    <div id="burger">
+    <!-- Mobile Burger -->
+    <div id="burger" class="link-dark">
         <div id="bar1" class="burger-bar"></div>
         <div id="bar2" class="burger-bar"></div>
         <div id="bar3" class="burger-bar"></div>
     </div>
 
-    <!-- navigation section -->
-    <div class="nav-container">
-        <ul id='nav-links'>
-            <li>
-                <a href="{{ url_for('home') }}" class="nav-link">home</a>
-            </li>
-            <li>
-                <a href="{{ url_for('development') }}" class="nav-link">development</a>
-            </li>
-            <li>
-                <a href="{{ url_for('art') }}" class="nav-link">art</a>
-            </li>
-            <li>
-                <a href="{{ url_for('sketchbook') }}" class="nav-link">sketchbook</a>
-            </li>
-            <li>
-                <a href="{{ url_for('contact') }}" class="nav-link">contact</a>
-            </li>
+    <!--Navigation Section -->
+    <div id="nav-container">
+        <ul id="nav-links">
+            <li><a href="{{ url_for('home') }}" class="link-dark">home</a></li>
+            <li><a href="{{ url_for('development') }}" class="link-dark">development</a></li>
+            <li><a href="{{ url_for('art') }}" class="link-dark">art</a></li>
+            <li><a href="{{ url_for('sketchbook') }}" class="link-dark">sketchbook</a></li>
+            <li><a href="{{ url_for('contact') }}" class="link-dark">contact</a></li>
         </ul>
 
         <!-- Social Media Links -->
@@ -52,11 +42,12 @@
                 </li>
                 <li class="social-link">
                     <a href="https://www.linkedin.com/in/billy-buehl-90074411a/" target="_blank">
-                        <img src="{{ url_for('static', filename='img/linkedinLogo.png') }}" alt="Linkedin.com">
+                        <img src="{{ url_for('static', filename='img/linkedinLogo.png') }}" alt="LinkedIn.com">
                     </a>
                 </li>
             </ul>
         </div>
+        
     </div>
     
 </nav>

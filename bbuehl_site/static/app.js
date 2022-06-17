@@ -1,92 +1,99 @@
-// drop mobile navigation
-function mobileNav() {
-    var burger = document.getElementById("burger");
-    var nav = document.querySelector("nav");
-    var navContainer = document.querySelector(".nav-container");
+$(document).ready(function() {
+    var navContainer = $("#nav-container");
+    var navItems = $("#nav-links");
+    var burger = $("#burger");
+    var template = document.querySelector("#project-template");
+    var sentinel = document.querySelector("#sentinel");
+    var trans = 50;
+    var counter = 0;
 
-    // transform burger to/ from X
-    function activeBurger() {
-        var bar1 = document.getElementById("bar1");
-        var bar2 = document.getElementById("bar2");
-        var bar3 = document.getElementById("bar3");
-
-        bar1.classList.toggle("bar1-active");
-        bar2.classList.toggle("bar2-active");
-        bar3.classList.toggle("bar3-active");
-    }
-
-    burger.addEventListener('click', () => {
-        activeBurger();
-        nav.classList.toggle("drop-nav");
-        navContainer.classList.toggle("nav-container-active");
+    // Resize Window >> Show Nav
+    $(window).on('resize', function() {
+        var win = $(window);
+        if (win.width() > 700) {        // desktop
+            navContainer.show();
+        } else {                        // mobile
+            navContainer.hide();
+            $("#bar1").animate({margin: '3px 0px'}, trans);
+            $("#bar3").animate({margin: '3px 0px'}, trans);
+        }
     });
-}
 
-// different class for active page
-function activeNav() {
-    var navLinks = document.querySelectorAll(".nav-link");
-    var currentPage = window.location.href;
-
-    for (i=0; i < navLinks.length; i++) {
-        if (currentPage == navLinks[i].href) {
-            navLinks[i].classList.toggle("nav-link-active");
+    // Click Burger
+    burger.click(function() {
+        if ($(navItems).is(":hidden")) {
+            $("#bar1").animate({margin: '0px 0px 8px 0px'}, trans);
+            $("#bar3").animate({margin: '8px 0px 0px 0px'}, trans);
+            navContainer.slideDown(200);
+        } else {
+            $("#bar1").animate({margin: '3px 0px'}, trans);
+            $("#bar3").animate({margin: '3px 0px'}, trans);
+            navContainer.slideUp(200);
         }
-    }
-}
+    });
 
-// open viewer
-function viewer(source="", mediaType="", title="") {
-    var playerWindow = document.getElementById("player");
-    var focusContainer = document.getElementById("focus-container");
-
-    if (mediaType == "video") {
-        // display iframe
-        var frame = document.createElement("iframe");
-        frame.src = source;
-        frame.width = "720";
-        frame.height = "480";
-        frame.border = "0";
-        frame.id = "focus-item";
-        frame.title = title;
-        frame.allowFullscreen = true;
-        focusContainer.appendChild(frame);
-    } else if (mediaType == "image") {
-        // display image
-        var image = document.createElement("img");
-        image.id = "focus-item";
-        image.src = source;
-        image.alt = title;
-        focusContainer.appendChild(image);
-    } else {
-        // clear focus container
-        focusContainer.innerHTML = "";
-    }
-
-    // display viewer
-    playerWindow.classList.toggle("player-active");
-}
-
-// mobile height
-function bodyHeight() {
-    var container = document.querySelector(".container");
-
-    function resizeContainer() {
-        if (window.innerWidth <= 500) {              // mobile
-            navHeight = 60;
-        } else {                                    // computer
-            navHeight = 0;
+    // Highlight Active Nav Elem
+    $("#nav-links li").each(function() {
+        if ($(this).find("a").attr('href') === window.location.pathname) {
+            $(this).find("a").toggleClass("link-active-underline");
         }
-        container.style["height"] = ((window.innerHeight - 34) - navHeight) + "px";
-    }
-    if (container){
-        window.addEventListener("resize", resizeContainer);
-        window.addEventListener("load", resizeContainer);
+    });
+
+    // Load Items
+    function loadItems() {
+        let page = window.location.pathname.split("/").pop();
+        
+        fetch(`/load?items=${counter}&page=${page}`)
+            .then((response) => {
+            response.json().then((data) => {
+                console.log(data)
+                // Clone template
+                let template_clone = template.content.cloneNode(true);
+                template_clone.querySelector("#title").innerHTML = "Test";
+                template_clone.querySelector("#subtitle").innerHTML = "Blah"
+                
+                document.querySelector("#entries").appendChild(template_clone);
+            })
+        });
     }
 
-}
+    var intersectionObserver = new IntersectionObserver(entries => {
+        if (entries[0].intersectionRatio <= 0) {
+            return;
+        }
+        loadItems();
+    });
+    intersectionObserver.observe(sentinel);
+});
 
-const app = () => {
-    mobileNav();
-    activeNav();
-    bodyHeight();
-}
+// // open viewer
+// function viewer(source="", mediaType="", title="") {
+//     var playerWindow = document.getElementById("player");
+//     var focusContainer = document.getElementById("focus-container");
+
+//     if (mediaType == "video") {
+//         // display iframe
+//         var frame = document.createElement("iframe");
+//         frame.src = source;
+//         frame.width = "720";
+//         frame.height = "480";
+//         frame.border = "0";
+//         frame.id = "focus-item";
+//         frame.title = title;
+//         frame.allowFullscreen = true;
+//         focusContainer.appendChild(frame);
+//     } else if (mediaType == "image") {
+//         // display image
+//         var image = document.createElement("img");
+//         image.id = "focus-item";
+//         image.src = source;
+//         image.alt = title;
+//         focusContainer.appendChild(image);
+//     } else {
+//         // clear focus container
+//         focusContainer.innerHTML = "";
+//     }
+
+//     // display viewer
+//     playerWindow.classList.toggle("player-active");
+// }

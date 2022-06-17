@@ -1,11 +1,9 @@
 {% extends "base.html" %}
 
 {% block body %}
-<div class="container">
-    <img src="{{ url_for('static', filename='img/profile.png') }}" alt="{{ name }}">
-    <h1>billy buehl</h1>
-    <div class="text-container">
-        <p>designer/ developer</p>
-    </div>
+<div class="container fullscreen-container">
+    <img src="{{ url_for('static', filename='img/profile.png') }}" alt="{{ name }}" id="profile-image">
+    <h1 class="header">billy buehl</h1>
+    <p class="paragraph">designer/developer</p>
 </div>
 {% endblock %}

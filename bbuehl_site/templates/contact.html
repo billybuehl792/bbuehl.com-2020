@@ -1,18 +1,14 @@
 {% extends "base.html" %}
 
 {% block body %}
-<div class="container">
+<div class="container fullscreen-container center-text">
     <div class="text-container">
         <h2>Billy Buehl</h2>
         <p>billybuehl792@gmail.com</p>
     </div>
     <div class="text-container">
-        <p class="resume-link">
-            <a href="{{ url_for('resume', resume='IT_Resume') }}">IT Resume</a>
-        </p>
-        <p class="resume-link">
-            <a href="{{ url_for('resume', resume='Motion_Resume') }}">Motion Resume</a>
-        </p>
+        <a href="{{ url_for('resume', resume='IT_Resume') }}" class="link-button">IT Resume</a>
+        <a href="{{ url_for('resume', resume='Motion_Resume') }}" class="link-button">Motion Resume</a>
     </div>
 </div>
 {% endblock %}

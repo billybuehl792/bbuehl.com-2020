@@ -1,9 +1,14 @@
 # routes.py - routes for site
 
-from flask import flash, url_for, redirect, render_template, request
+import re
+from flask import flash, make_response, url_for, redirect, render_template, request, jsonify
 from bbuehl_site import app
 import os
 import json
+
+config_file = os.path.join(app.root_path, 'static/config', f'config.json')
+with open(config_file, 'r') as f:
+    config = json.load(f)
 
 @app.route('/')
 def home():
@@ -50,6 +55,14 @@ def development():
         d = json.load(f)['dev_items']
 
     return render_template('development.html', title='Development', d=d)
+
+@app.route('/load')
+def load():
+    if request.args.get('page') == 'development':
+        return make_response(jsonify(config.get('dev_entries')), 200)
+    else:
+        return make_response(jsonify({}), 200)
+
 
 @app.errorhandler(404)
 def error(e):
